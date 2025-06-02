@@ -4,7 +4,7 @@ import streamlit as st # Streamlit library ko import karte hain
 st.title("Welcome App 👋") # App ka title
 
 # User se naam poochein
-user_name = st.text_input("Apna naam enter karein:", "Guest")
+user_name = st.text_input("Apna naam enter karein:", "SIETn")
 
 # --- Sidebar Content ---
 st.sidebar.header("Message Options") # Sidebar ke liye heading
@@ -28,4 +28,4 @@ st.write("---") # Another horizontal line
 st.success("App ready hai! Apni pasand ka naam aur message type chunein.")
 
 # Optional: Add a small footer
-st.markdown("Developed with ❤️ using Streamlit.")
+st.markdown("Developed by SHIVAM☠️.")
